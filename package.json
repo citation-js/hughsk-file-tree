@@ -1,7 +1,7 @@
 {
-  "name": "file-tree",
+  "name": "@citation-js/hughsk-file-tree",
   "version": "1.0.0",
-  "description": "Generate a tree of file metadata that matches d3's hierarchy layout format",
+  "description": "Fork of hughsk/file-tree: Generate a tree of file metadata that matches d3's hierarchy layout format",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,12 +18,15 @@
     "metadata",
     "d3"
   ],
-  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
+  "author": "Lars Willighagen (https://larsgw.github.io/)",
+  "contributors": [
+    "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)"
+  ],
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
     "async-reduce": "0.0.1",
-    "commondir": "0.0.1",
-    "flat": "~1.0.0"
+    "commondir": "^1.0.1",
+    "flat": "^5.0.2"
   }
 }
